@@ -1,19 +1,18 @@
-🧠 Jogo da Memória com Visão Computacional
+# Jogo da Memória com Visão Computacional
 Este projeto é um jogo da memória interativo que utiliza visão computacional em tempo real para identificar e parear imagens captadas por uma webcam, com base em um classificador treinado com o dataset CIFAR-10.
 
-🎯 Objetivo
+# Objetivo
 Desenvolver um jogo da memória onde o usuário posiciona objetos ou imagens diante da webcam, e o sistema identifica a classe correspondente (por exemplo, "gato", "carro", "avião", etc.) utilizando um modelo treinado com CIFAR-10. Quando dois objetos da mesma classe forem detectados, o sistema reconhece o match e marca o par como encontrado.
 
-🧰 Tecnologias utilizadas
-Python 3.x
+# Tecnologias utilizadas
+ - Python 3.x
 
-OpenCV (para captura de vídeo)
+ - OpenCV (para captura de vídeo)
 
-TensorFlow / Keras ou PyTorch (para classificação com modelo treinado)
+ - TensorFlow / Keras ou PyTorch (para classificação com modelo treinado)
 
-NumPy
+ - NumPy
 
-Matplotlib (opcional para visualização)
 
 🧠 Como funciona
 O modelo é treinado previamente com o dataset CIFAR-10.
