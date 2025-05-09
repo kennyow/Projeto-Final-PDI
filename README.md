@@ -14,36 +14,32 @@ Desenvolver um jogo da memória onde o usuário posiciona objetos ou imagens dia
  - NumPy
 
 
-🧠 Como funciona
-O modelo é treinado previamente com o dataset CIFAR-10.
-
-O jogo inicia a captura de vídeo pela webcam.
-
-O usuário posiciona uma imagem ou objeto na frente da câmera.
-
-O modelo classifica a imagem em tempo real.
-
-O sistema registra a tentativa e verifica se houve um par correto.
+# Como funciona
+ - O modelo é treinado previamente com o dataset CIFAR-10;
+ - O jogo inicia a captura de vídeo pela webcam;
+ - O usuário posiciona uma imagem ou objeto na frente da câmera;
+ - O modelo classifica a imagem em tempo real;
+ - O sistema registra a tentativa e verifica se houve um par correto.
 
 Se o par for identificado (duas imagens da mesma classe), o match é confirmado.
 
-▶️ Como rodar
+# Como rodar
 
-
-Clone este repositório:
+ - Clone este repositório:
 
 bash
 Copiar
 Editar
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
-Instale as dependências:
+ - Instale as dependências:
 
 bash
 Copiar
 Editar
 pip install -r requirements.txt
-Execute o jogo:
+
+ - Execute o jogo:
 
 bash
 Copiar
@@ -62,30 +58,25 @@ Editar
 │   └── classifier.py   # Código do classificador
 ├── requirements.txt
 └── README.md
-🧪 Exemplos de classes reconhecidas
-Avião
 
-Automóvel
+# Exemplos de classes reconhecidas
+ - Avião
+ - Automóvel
+ - Gato
+ - Cachorro
+ - Sapo
+ - Navio
+ - Cavalo
 
-Gato
+# Possíveis melhorias
+ - Interface gráfica com pontuação
+ - Detecção de tempo de resposta
+ - Aumento de classes com transfer learning
+ - Reconhecimento de objetos reais com webcam
 
-Cachorro
-
-Sapo
-
-Navio
-
-Cavalo
-
-📌 Possíveis melhorias
-Interface gráfica com pontuação
-
-Detecção de tempo de resposta
-
-Aumento de classes com transfer learning
-
-Reconhecimento de objetos reais com webcam
-
-📜 Licença
+# Licença
 Este projeto está licenciado sob a MIT License.
+
+# Link do Vídeo de Apresentação
+https://www.youtube.com/watch?v=zsO5iW8MyLQ&t=802s
 
